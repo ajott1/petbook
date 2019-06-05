@@ -17,12 +17,13 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="display-3 mb-4">Petbook</h1>
+                <h1 className="display-3 mb-4">Pet Book</h1>
                 <p className="lead">
                   {" "}
                   Create a pet profile, share posts and engage with the
-                  community!
+                  community
                 </p>
+                <hr />
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
                   Sign Up
                 </Link>
